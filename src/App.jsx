@@ -117,7 +117,6 @@ function App() {
             reader.readAsDataURL(img)
             // setFile(e.target.files[0])
           }} />
-          {file && (<p>{file.name}</p>)}
           {error && (<p>{error}</p>)}
           {imgSrc && (
             <div>
