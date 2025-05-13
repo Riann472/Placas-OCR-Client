@@ -10,11 +10,12 @@ html {
 
 body {
   background-color: #121212;
+  color: #F8F9FA;
+
 }
 
 header {
   background-color: #0D1B2A;
-  color: #F8F9FA;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -26,39 +27,35 @@ main {
   height: 90vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
 form {
   background-color: #1E1E1E;
-  width: 500px;
-  height: 500px;
-  display: flex;
+  width: 520px;
+  padding: 15px;
   border-radius: 5px;
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  gap: 10px;
 }
 
-form p,
-form h2 {
-  color: #F8F9FA;
+form p {
+  display: inline;
+  color: rgb(255, 255, 255, .3);
 }
-
 
 input {
   display: none;
 }
 
 label {
-  color: #1A1A1A;
+  color: #F8F9FA;
   cursor: pointer;
-  background-color: #00C851;
-  /* padding: 8px; */
-  display: flex;
+  background-color: rgb(219, 219, 219, .2);
+  padding: 5px;
   justify-content: center;
-  width: 200px;
-  height: 100px;
   align-items: center;
   border-radius: 5px;
 }
@@ -66,6 +63,8 @@ label {
 button {
   padding: 10px;
   border-radius: 5px;
+  margin: 18px 0 10px;
+  display: block;
   cursor: pointer;
   border: none;
 }
