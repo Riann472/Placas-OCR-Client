@@ -30,5 +30,15 @@ npm install
 npm start
 ```
 
-> O frontend estará disponível em [http://localhost:3000](http://localhost:5173)
+> O frontend estará disponível em [http://localhost:5173](http://localhost:5173)
 
+## ⚙️ Configuração
+
+Certifique-se de que o backend está rodando em [http://localhost:3001](http://localhost:3001),  
+ou atualize a URL das requisições no código (por exemplo, nas chamadas do Axios).
+
+## 📸 Funcionalidades
+
+- Captura de imagem  
+- Envio da imagem para o backend  
+- Exibição da placa identificada na resposta
